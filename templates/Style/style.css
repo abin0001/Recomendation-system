@@ -6,7 +6,7 @@
 }
 .body{
     background-color:aliceblue;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.thecoolist.com%2Fwp-content%2Fuploads%2F2016%2F11%2FClementinum-beautiful-library-960x540.jpg&f=1&nofb=1&ipt=7f4dcdc66536e93855bde7cc84da26a74cfec7d65912604badd3f49a077904c8&ipo=images");
+    background-image: url("background.png");
     color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -20,8 +20,8 @@
 .navbar{
     padding-top: 200px;
     border-radius: 2.5%;
-   
-    background-color:rgb(234, 157, 64,0.5);
+
+    background-color:rgba(34, 255, 0, 0.6);
     width:100%;
     height: 50px;
     /* border-color: brown; */
@@ -44,7 +44,6 @@ a {
         opacity: 1;
     } 
 .navbar li {
-    background-color: transparent;
     border-radius:10%;
     border-bottom: 50px;
     height: 20px;
@@ -69,7 +68,56 @@ a {
     /* background-color: rgb(59, 59, 59); */
     font-weight: bold;
     border-bottom-color: aqua;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid rgb(224, 142, 0);
     transition: transform 0.5s;
+    
+}
+.navbar-brand{
+
+    color:rgb(34, 52, 30);
+    border-radius:10%;
+}
+.container{
+    color:black;
+}
+.col-md-12{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(1, 92, 30);
+    text-shadow: 20px;
+}
+
+.card-img-top{
+
+    width: 150px;
+    height:200px;
+    padding-top: 20px;
+}
+.card-img-top :hover{ 
+
+    width: 150px;
+    height:200px;
+    padding-top: 20px;
+}
+.card{
+    padding-left: 20px;
+
+}
+
+
+.card-body{
+    width: 200px;
+    height:fit-content;
+    background-color:transparent;
+    text-align: center;
+    position: relative;
+    
+}
+.card-body :hover{
+    width: 200px;
+    height:fit-content;
+    background-color:transparent;
+    text-align: center;
+    border-color: green;
     
 }
